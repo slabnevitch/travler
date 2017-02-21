@@ -1,0 +1,151 @@
+.sect-3{
+	padding-bottom: 32px;
+	background-color: $gray-color;
+	.sect-descr{
+		margin-bottom: 30px;
+	}
+}
+.carousel-slide-item{
+	&:hover .carousel-slide-item__cover{
+		//display: block;
+		opacity: 0.5;
+		width: 1005px;
+		height: 100%;
+	}
+}
+.carousel-slide-item__photo{
+	max-width: 100%;
+	height: 222px;
+	margin-bottom: 10px;
+	position: relative;
+	overflow: hidden;
+}
+.carousel-slide-item__backgr{
+	@include absolute-center;
+	max-width: 100%;
+	max-height: 100%;
+	display: block;
+	// width: 100%;
+	// height: 100%;
+
+}
+.owl-carousel .owl-item .carousel-slide-item__img{
+	@include absolute-center;
+	display: block;
+	max-width: 88%;
+	max-height: 90%;
+}
+.carousel-slide-item__name, .carousel-slide-item__position{
+	padding-left: 15px;
+	font-family: $pt-sans;
+	font-size: 18px;
+	color: #7b7b7b;
+	font-weight: 700;
+}
+.carousel-slide-item__position{
+	font-weight: normal;
+	font-size: 14px;
+}
+.carousel-slide-item__cover{
+	@include absolute-center;
+	width: 10%;
+	height: 10%;
+	background-color: #8f33c4;
+	opacity: 0;
+	//display: none;
+	transition: all .5s;
+}
+.carousel-slide-item__twitt-link{
+	width: 47px;
+	height: 41px;
+	display: block;
+	background-color: #8f33c4;
+	position: absolute;
+	right: 13px;
+	bottom: 19px;
+	background-image: url(../img/png/ico-twit.png);
+	background-position: center;
+	background-repeat: no-repeat;
+
+	&:hover{
+		background-color: #451A4A;
+	}
+}
+/*-----------------OWl customize------------*/
+.owl-nav{
+	display: none;
+}
+.owl-dots{
+	text-align: center;
+	margin-top: 50px;
+}
+.owl-dot{
+	width: 10px;
+	height: 10px;
+	background-color: #B9B9B9;
+	@include brs(50%);
+	display: inline-block;
+	margin-left: 7px;
+
+	&.active{
+		background-color: #8F33C4;
+	}
+}
+/*-----------------END OF OWl customize------------*/
+.sect-3__carousel{
+margin-bottom: 42px;
+}
+.articles{
+	@include clearfix;
+	padding-bottom: 0;
+	h3{
+		margin-bottom: 15px;
+		line-height: 30px;
+	}
+	article{
+		margin-bottom: 16px;
+		position: relative;
+	padding: 54px 51px 85px 51px;
+	background-color: #fff;
+	border-bottom: 1px solid $border-color;
+	}
+
+	.articles__link{
+		display: block;
+		margin-bottom: 25px;
+		font-family: $nexa;
+		font-weight: 700;
+		line-height: 25px;
+		font-size: 14px;
+		color: #6017a3;
+
+		&:hover{
+			text-decoration: underline;
+		}
+	} 
+	.articles__text{
+		font-family: $nexa;
+		color: #949494;
+		line-height: 22px;
+		font-weight: 700;
+	}
+	.articles__plus{
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 30px;
+	line-height: 30px;
+	background-color: #8f33c4;
+		color: #fff;
+		font-family: $nexa;
+		font-size: 30px;
+		text-align: center;
+
+		&:hover{
+			background-color: #451A4A;
+		}
+	}
+}
+.articles .row:last-child article{
+	margin-bottom: 0;
+}

@@ -1,0 +1,46 @@
+.monitor{
+	padding-top: 207px;
+	border-top: 2px solid #1e1e1e;
+	background: #222222 url(../img/bg_monitor.jpg) center 55px no-repeat;
+	@include clearfix;
+}
+.sect-1__icon-wrap--monitor{
+	
+	height: 98px;
+}
+.sect-1__item-icon--monitor{
+	opacity: 1;
+	max-width: 143px;
+	max-height: 100%;
+	// display: block;
+	// max-height: 100%;
+}
+.cloud-icon{
+	max-width: 108px;
+}
+.lines--monitor{
+	&:before, &:after{
+		background-color: #fff;
+	}
+}
+.sect-3__wingers{
+	position: relative;
+	
+	&:before, &:after{
+		content: '';
+		position: absolute;
+		width: 220px;
+	height: 2px;
+	top: 50%;
+		background-color: #dedede;
+	-webkit-box-shadow: 0 1px #fff;
+	-moz-box-shadow: 0 1px #fff;
+	box-shadow: 0 1px #fff;
+	}
+	&:before{
+		left: 0;
+	}
+	&:after{
+		right: 0;
+	}
+}

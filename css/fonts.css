@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "RobotoRegular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoRegular/RobotoRegular.woff") format("woff"), url("../fonts/RobotoRegular/RobotoRegular.ttf") format("truetype"); }
+
+@font-face {
+    font-family: 'Nexa';
+    src: local('../fonts/nexa/Nexa Light'), local('../fonts/nexa/NexaLight'), url('../fonts/nexa/nexalight.woff2') format('woff2'), url('../fonts/nexa/nexalight.woff') format('woff'), url('../fonts/nexa/nexalight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Nexa';
+    src: local('../fonts/nexa/Nexa Bold'), local('../fonts/nexa/NexaBold'), url('../fonts/nexa/nexabold.woff2') format('woff2'), url('../fonts/nexa/nexabold.woff') format('woff'), url('../fonts/nexa/nexabold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}

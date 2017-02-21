@@ -1,0 +1,288 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: $icon-home-width;
+// }
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path;
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites;
+$central-icon-name: 'central-icon';
+$central-icon-x: 0px;
+$central-icon-y: 0px;
+$central-icon-offset-x: 0px;
+$central-icon-offset-y: 0px;
+$central-icon-width: 53px;
+$central-icon-height: 56px;
+$central-icon-total-width: 144px;
+$central-icon-total-height: 118px;
+$central-icon-image: '../img/sprite.png';
+$central-icon: (0px, 0px, 0px, 0px, 53px, 56px, 144px, 118px, '../img/sprite.png', 'central-icon', );
+$doc-name: 'doc';
+$doc-x: 122px;
+$doc-y: 32px;
+$doc-offset-x: -122px;
+$doc-offset-y: -32px;
+$doc-width: 22px;
+$doc-height: 27px;
+$doc-total-width: 144px;
+$doc-total-height: 118px;
+$doc-image: '../img/sprite.png';
+$doc: (122px, 32px, -122px, -32px, 22px, 27px, 144px, 118px, '../img/sprite.png', 'doc', );
+$doc-hover-name: 'doc_hover';
+$doc-hover-x: 122px;
+$doc-hover-y: 0px;
+$doc-hover-offset-x: -122px;
+$doc-hover-offset-y: 0px;
+$doc-hover-width: 22px;
+$doc-hover-height: 27px;
+$doc-hover-total-width: 144px;
+$doc-hover-total-height: 118px;
+$doc-hover-image: '../img/sprite.png';
+$doc-hover: (122px, 0px, -122px, 0px, 22px, 27px, 144px, 118px, '../img/sprite.png', 'doc_hover', );
+$dropdown-icon-name: 'dropdown-icon';
+$dropdown-icon-x: 95px;
+$dropdown-icon-y: 61px;
+$dropdown-icon-offset-x: -95px;
+$dropdown-icon-offset-y: -61px;
+$dropdown-icon-width: 9px;
+$dropdown-icon-height: 14px;
+$dropdown-icon-total-width: 144px;
+$dropdown-icon-total-height: 118px;
+$dropdown-icon-image: '../img/sprite.png';
+$dropdown-icon: (95px, 61px, -95px, -61px, 9px, 14px, 144px, 118px, '../img/sprite.png', 'dropdown-icon', );
+$dropdown-icon-hover-name: 'dropdown-icon_hover';
+$dropdown-icon-hover-x: 81px;
+$dropdown-icon-hover-y: 61px;
+$dropdown-icon-hover-offset-x: -81px;
+$dropdown-icon-hover-offset-y: -61px;
+$dropdown-icon-hover-width: 9px;
+$dropdown-icon-hover-height: 14px;
+$dropdown-icon-hover-total-width: 144px;
+$dropdown-icon-hover-total-height: 118px;
+$dropdown-icon-hover-image: '../img/sprite.png';
+$dropdown-icon-hover: (81px, 61px, -81px, -61px, 9px, 14px, 144px, 118px, '../img/sprite.png', 'dropdown-icon_hover', );
+$facebook-small-name: 'facebook-small';
+$facebook-small-x: 109px;
+$facebook-small-y: 61px;
+$facebook-small-offset-x: -109px;
+$facebook-small-offset-y: -61px;
+$facebook-small-width: 6px;
+$facebook-small-height: 12px;
+$facebook-small-total-width: 144px;
+$facebook-small-total-height: 118px;
+$facebook-small-image: '../img/sprite.png';
+$facebook-small: (109px, 61px, -109px, -61px, 6px, 12px, 144px, 118px, '../img/sprite.png', 'facebook-small', );
+$ico-twit-name: 'ico-twit';
+$ico-twit-x: 58px;
+$ico-twit-y: 32px;
+$ico-twit-offset-x: -58px;
+$ico-twit-offset-y: -32px;
+$ico-twit-width: 26px;
+$ico-twit-height: 18px;
+$ico-twit-total-width: 144px;
+$ico-twit-total-height: 118px;
+$ico-twit-image: '../img/sprite.png';
+$ico-twit: (58px, 32px, -58px, -32px, 26px, 18px, 144px, 118px, '../img/sprite.png', 'ico-twit', );
+$loc-small-name: 'loc-small';
+$loc-small-x: 64px;
+$loc-small-y: 61px;
+$loc-small-offset-x: -64px;
+$loc-small-offset-y: -61px;
+$loc-small-width: 12px;
+$loc-small-height: 18px;
+$loc-small-total-width: 144px;
+$loc-small-total-height: 118px;
+$loc-small-image: '../img/sprite.png';
+$loc-small: (64px, 61px, -64px, -61px, 12px, 18px, 144px, 118px, '../img/sprite.png', 'loc-small', );
+$loc-small-hover-name: 'loc-small_hover';
+$loc-small-hover-x: 122px;
+$loc-small-hover-y: 64px;
+$loc-small-hover-offset-x: -122px;
+$loc-small-hover-offset-y: -64px;
+$loc-small-hover-width: 12px;
+$loc-small-hover-height: 18px;
+$loc-small-hover-total-width: 144px;
+$loc-small-hover-total-height: 118px;
+$loc-small-hover-image: '../img/sprite.png';
+$loc-small-hover: (122px, 64px, -122px, -64px, 12px, 18px, 144px, 118px, '../img/sprite.png', 'loc-small_hover', );
+$loc-name: 'loc';
+$loc-x: 23px;
+$loc-y: 91px;
+$loc-offset-x: -23px;
+$loc-offset-y: -91px;
+$loc-width: 18px;
+$loc-height: 27px;
+$loc-total-width: 144px;
+$loc-total-height: 118px;
+$loc-image: '../img/sprite.png';
+$loc: (23px, 91px, -23px, -91px, 18px, 27px, 144px, 118px, '../img/sprite.png', 'loc', );
+$loc-hover-name: 'loc_hover';
+$loc-hover-x: 0px;
+$loc-hover-y: 91px;
+$loc-hover-offset-x: 0px;
+$loc-hover-offset-y: -91px;
+$loc-hover-width: 18px;
+$loc-hover-height: 27px;
+$loc-hover-total-width: 144px;
+$loc-hover-total-height: 118px;
+$loc-hover-image: '../img/sprite.png';
+$loc-hover: (0px, 91px, 0px, -91px, 18px, 27px, 144px, 118px, '../img/sprite.png', 'loc_hover', );
+$mail-small-name: 'mail-small';
+$mail-small-x: 46px;
+$mail-small-y: 91px;
+$mail-small-offset-x: -46px;
+$mail-small-offset-y: -91px;
+$mail-small-width: 13px;
+$mail-small-height: 9px;
+$mail-small-total-width: 144px;
+$mail-small-total-height: 118px;
+$mail-small-image: '../img/sprite.png';
+$mail-small: (46px, 91px, -46px, -91px, 13px, 9px, 144px, 118px, '../img/sprite.png', 'mail-small', );
+$plane-name: 'plane';
+$plane-x: 32px;
+$plane-y: 61px;
+$plane-offset-x: -32px;
+$plane-offset-y: -61px;
+$plane-width: 27px;
+$plane-height: 25px;
+$plane-total-width: 144px;
+$plane-total-height: 118px;
+$plane-image: '../img/sprite.png';
+$plane: (32px, 61px, -32px, -61px, 27px, 25px, 144px, 118px, '../img/sprite.png', 'plane', );
+$plane-hover-name: 'plane_hover';
+$plane-hover-x: 0px;
+$plane-hover-y: 61px;
+$plane-hover-offset-x: 0px;
+$plane-hover-offset-y: -61px;
+$plane-hover-width: 27px;
+$plane-hover-height: 25px;
+$plane-hover-total-width: 144px;
+$plane-hover-total-height: 118px;
+$plane-hover-image: '../img/sprite.png';
+$plane-hover: (0px, 61px, 0px, -61px, 27px, 25px, 144px, 118px, '../img/sprite.png', 'plane_hover', );
+$planet-name: 'planet';
+$planet-x: 90px;
+$planet-y: 0px;
+$planet-offset-x: -90px;
+$planet-offset-y: 0px;
+$planet-width: 27px;
+$planet-height: 27px;
+$planet-total-width: 144px;
+$planet-total-height: 118px;
+$planet-image: '../img/sprite.png';
+$planet: (90px, 0px, -90px, 0px, 27px, 27px, 144px, 118px, '../img/sprite.png', 'planet', );
+$planet-hover-name: 'planet_hover';
+$planet-hover-x: 58px;
+$planet-hover-y: 0px;
+$planet-hover-offset-x: -58px;
+$planet-hover-offset-y: 0px;
+$planet-hover-width: 27px;
+$planet-hover-height: 27px;
+$planet-hover-total-width: 144px;
+$planet-hover-total-height: 118px;
+$planet-hover-image: '../img/sprite.png';
+$planet-hover: (58px, 0px, -58px, 0px, 27px, 27px, 144px, 118px, '../img/sprite.png', 'planet_hover', );
+$rss-small-name: 'rss-small';
+$rss-small-x: 82px;
+$rss-small-y: 91px;
+$rss-small-offset-x: -82px;
+$rss-small-offset-y: -91px;
+$rss-small-width: 9px;
+$rss-small-height: 9px;
+$rss-small-total-width: 144px;
+$rss-small-total-height: 118px;
+$rss-small-image: '../img/sprite.png';
+$rss-small: (82px, 91px, -82px, -91px, 9px, 9px, 144px, 118px, '../img/sprite.png', 'rss-small', );
+$search-icon-name: 'search-icon';
+$search-icon-x: 90px;
+$search-icon-y: 32px;
+$search-icon-offset-x: -90px;
+$search-icon-offset-y: -32px;
+$search-icon-width: 23px;
+$search-icon-height: 23px;
+$search-icon-total-width: 144px;
+$search-icon-total-height: 118px;
+$search-icon-image: '../img/sprite.png';
+$search-icon: (90px, 32px, -90px, -32px, 23px, 23px, 144px, 118px, '../img/sprite.png', 'search-icon', );
+$twi-small-name: 'twi-small';
+$twi-small-x: 64px;
+$twi-small-y: 91px;
+$twi-small-offset-x: -64px;
+$twi-small-offset-y: -91px;
+$twi-small-width: 13px;
+$twi-small-height: 9px;
+$twi-small-total-width: 144px;
+$twi-small-total-height: 118px;
+$twi-small-image: '../img/sprite.png';
+$twi-small: (64px, 91px, -64px, -91px, 13px, 9px, 144px, 118px, '../img/sprite.png', 'twi-small', );
+$spritesheet-width: 144px;
+$spritesheet-height: 118px;
+$spritesheet-image: '../img/sprite.png';
+$spritesheet-sprites: ($central-icon, $doc, $doc-hover, $dropdown-icon, $dropdown-icon-hover, $facebook-small, $ico-twit, $loc-small, $loc-small-hover, $loc, $loc-hover, $mail-small, $plane, $plane-hover, $planet, $planet-hover, $rss-small, $search-icon, $twi-small, );
+$spritesheet: (144px, 118px, '../img/sprite.png', $spritesheet-sprites, );
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites($spritesheet-sprites);
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}
