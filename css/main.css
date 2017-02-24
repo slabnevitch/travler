@@ -159,11 +159,11 @@ select::-ms-expand {
   text-align: right; }
 
 .header__form-search {
+  position: relative;
   margin-top: 5px; }
   .header__form-search label {
     width: 100%;
-    display: inline-block;
-    position: relative; }
+    display: inline-block; }
   .header__form-search input {
     display: block;
     width: 100%;
@@ -177,7 +177,7 @@ select::-ms-expand {
 .header__s-button {
   position: absolute;
   right: 14px;
-  top: 50%;
+  top: 46%;
   background-color: transparent;
   margin-top: -12px;
   border: none;
@@ -695,3 +695,5 @@ select::-ms-expand {
 
 .footer__bottom-list {
   font-size: 0; }
+
+/*# sourceMappingURL=maps/main.css.map */
